@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is on the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7460000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-25T05:10:49.018Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "user searches teapot in google",
+        "description": "",
+        "id": "google-search;user-searches-teapot-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1148000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2109000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user searches teapot",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_teapot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify result has teapot",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_teapot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlesearch"
+          },
+          {
+            "name": "@first"
+          },
+          {
+            "name": "@teapot"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user is on the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6807000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-25T05:10:59.758Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "user searches nokia in google",
+        "description": "",
+        "id": "google-search;user-searches-nokia-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1084000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1517000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user searches nokia",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_nokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify result has nokia",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_nokia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlesearch"
+          },
+          {
+            "name": "@first"
+          },
+          {
+            "name": "@nokia"
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/firstfeaturefile.feature",
+    "tags": [
+      {
+        "name": "@googlesearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@first",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]
